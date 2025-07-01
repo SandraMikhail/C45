@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+#home{
+    background-image: url(banner\ \(1\).png);
+    height:200px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.footer{
+    background-color: #262936 ;
+}
+.card{
+    background-color: #2b2b2e;
+    height:100%;
+    color: white;
+}
+
+.card-title{
+    font-size: 90px;
+}
+.together {
+    color:rgb(191, 193, 200)
+}
+p{
+    color: white;
+}
+
+.card-last{
+    background-color:  #262936  ;
+}
+
+.max{
+    font-size:24px
+}
+.borderX{
+    border: solid 2px blue !important
+}
+.test{
+    background-color: black;
+    color: grey;
+}
+.test:hover{
+    border: 1px solid blue;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+li .active{
+    font-weight: 700;
+    color: yellow;
+}
+.company-details i{
+    color:blue
+}
+.place{
+    border: solid 1px transparent;
+    border-radius: 15px;
+    width: 80%;
+    margin-top: 50px;
+    height: 400px;
+    background-color: rgb(22, 67, 109);
+}
+
+.img-spec{
+    width: 5%;
+}
