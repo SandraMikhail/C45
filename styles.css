@@ -1,16 +1,19 @@
 body{
-    background-color: black;
+    background-color: #1E202B;
 }
 
 #home{
     background-image: url(banner\ \(1\).png);
-    height:200px;
+    height:400px;
     width: 100%;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: none;
 }
 
+.navbar{
+    height: 70px;
+}
 .footer{
     background-color: #262936 ;
 }
@@ -38,14 +41,20 @@ p{
     font-size:24px
 }
 .borderX{
-    border: solid 2px blue !important
+    border: solid 2px #009AD8 !important
 }
 .test{
-    background-color: black;
+    background-color: transparent;
     color: grey;
+    border: 1px solid grey ;
 }
 .test:hover{
-    border: 1px solid blue;
+    border: 1px solid #009AD8;
+}
+.sendBtn{
+    background-color: #009AD8;
+    color: white;
+    
 }
 
 a{
@@ -54,15 +63,14 @@ a{
 }
 li .active{
     font-weight: 700;
-    color: yellow;
 }
 .company-details i{
-    color:blue
+    color:#009AD8
 }
 .place{
     border: solid 1px transparent;
     border-radius: 15px;
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
     height: 400px;
     background-color: rgb(22, 67, 109);
@@ -70,4 +78,34 @@ li .active{
 
 .img-spec{
     width: 5%;
+}
+#firstcard{
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.social i{ 
+    background-color: #1E202B;
+    border: 1px solid transparent;
+    color: #009AD8;
+    border-radius: 50%;
+    font-size: 20px;
+    
+
+}
+.social i:hover, .btnSub , .findBtn{
+    color: white;
+    background-color: #009AD8;
+}
+.btnSub, findBtn{
+    border: 1px solid transparent;
+}
+
+.searchbar input{
+    border: 1px solid #1E202B;
+    background-color: #1E202B;
+}
+form textarea{
+    border: 1px solid white;
+    border-radius: 20px;
 }

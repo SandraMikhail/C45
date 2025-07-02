@@ -18,7 +18,8 @@
 
     <div class="container">
         <div class="row">
-
+            <div class="col-md-10">
+                
             <nav class="navbar navbar-expand-sm navbar-dark bg-red ">
 
                 <img src="logo@2x.png" class="img-spec" alt="">
@@ -29,7 +30,7 @@
                 <div class="collapse navbar-collapse " id="collapsibleNavId">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="/index.html" aria-current="page">Home <span
+                            <a class="nav-link" href="/index.html" aria-current="page">Home <span
                                     class="visually-hidden">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -43,12 +44,15 @@
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contactus.html">contact</a>
+                            <a class="nav-link active border border-info rounded-pill mx-2 " href="/contactus.html">contact</a>
                         </li>
                     </ul>
 
                 </div>
             </nav>
+            </div>
+            
+
         </div>
     </div>
 
@@ -56,11 +60,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 bg-dark my-3  rounded-pill d-flex align-items-center ">
+            <div class="col-md-10 bg-dark my-3  rounded-pill d-flex align-items-center" style="height: 40px;">
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                    <ol class="breadcrumb text-white">
-                        <li class="breadcrumb-item text-white "><a href="/index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    <ol class="breadcrumb text-white m-0">
+                        <li class="breadcrumb-item  "><a href="/index.html">Home</a></li>
+                        <li class="breadcrumb-item  " aria-current="page">Contact</li>
                     </ol>
                 </nav>
 
@@ -74,48 +78,49 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-6 ">
+            <div class="col-md-5 ">
                 <div class="map position-relative mx-auto">
                     <div class="place">
 
                     </div>
-                     
 
-                <div class="company-details position-absolute bottom-0 left-0">
-                    <span class="d-flex">
-                        <i class="fa-solid fa-anchor d-flex justify-content-center align-items-center p-2"></i>
-                        <p class="d-flex flex-column mx-2">Company Name INC.<span>2803 Avenue Street, Los Angeles</span>
-                        </p>
 
-                    </span>
-                    <div class="details d-flex">
-                        <div class="details-mobile d-flex align-content-center">
-                            <i class="fa-solid fa-mobile p-2"></i>
-                            <p>+1 800 314 235</p>
-                        </div>
-                        <div class="details-mail d-flex mx-3">
-                            <i class="fa-solid fa-mail-bulk p-2"></i>
-                            <p>contact@companyname.com</p>
+                    <div class="company-details position-absolute bottom-0 left-0">
+                        <span class="d-flex">
+                            <i class="fa-solid fa-anchor d-flex justify-content-center align-items-center p-2"></i>
+                            <p class="d-flex flex-column mx-2">Company Name INC.<span>2803 Avenue Street, Los
+                                    Angeles</span>
+                            </p>
+
+                        </span>
+                        <div class="details d-flex">
+                            <div class="details-mobile d-flex align-content-center">
+                                <i class="fa-solid fa-mobile p-2"></i>
+                                <p>+1 800 314 235</p>
+                            </div>
+                            <div class="details-mail d-flex flex-wrap mx-3">
+                                <i class="fa-solid fa-mail-bulk p-2"></i>
+                                <p>contact@companyname.com</p>
+                            </div>
                         </div>
                     </div>
-                </div>  
                 </div>
-             
+
             </div>
 
-            <div class="col-md-6 bg- info">
+            <div class="col-md-5">
                 <h2 class="text-white my-5">Contact us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus,
                     facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit
-                    hic, ipsum sed!</p>ù
+                    hic, ipsum sed!</p>
                 <form action="submit" class="d-flex flex-wrap ">
                     <input type="text" placeholder="your name..." class="w-50 p-3  my-2  rounded-pill test ">
                     <input type="email" placeholder="email address..." class="w-50 p-3  my-2  rounded-pill test">
                     <input type="text" placeholder="company name..." class="w-50 p-3  my-2  rounded-pill test">
                     <input type="text" placeholder="website ..." class="w-50 p-3  my-2  rounded-pill test">
-                    <textarea name="message" id="" cols="100%" placeholder="Message..."
-                        class="test  rounded-3 p-3 my-2"></textarea>
-                    <button class="btn btn-primary my-3 d-flex ms-auto ">send</button>
+                    <textarea name="message" placeholder="Message..."
+                        class="test test1 p-3 my-2 w-100"></textarea>
+                    <button class="btn sendBtn my-3 d-flex ms-auto test rounded-pill">Submit</button>
                 </form>
 
             </div>
@@ -132,19 +137,23 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="searchbar my-5 d-flex  rounded-pill justify-between position-relative">
-                        <input type="text" class="w-100 bg-dark rounded-pill p-2 "
-                            placeholder="Enter your email to subscribe">
+                        <input type="text" class="w-100 rounded-pill p-2 "
+                            placeholder="Enter your email to subscribe...">
                         <button
-                            class="bg-primary text-white px-3  rounded-pill position-absolute bottom-0 end-0  top-0">subscribe</button>
+                            class="btnSub px-3  rounded-pill position-absolute bottom-0 end-0  top-0">Subscribe</button>
 
                     </div>
                 </div>
 
                 <div class="col-md-4  d-flex align-center justify-content-center align-self-center">
-                    <i class="fa-brands fa-facebook text-primary  border rounded-circle p-1  border-primary"></i>
-                    <i class="fa-brands fa-twitter text-primary border rounded-circle p-1  border-primary"></i>
-                    <i class="fa-brands fa-google text-primary border rounded-circle p-1  border-primary"></i>
-                    <i class="fa-brands fa-pinterest text-primary border rounded-circle p-1 border-primary"></i>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook p-1 "></i>
+                        <i class="fa-brands fa-twitter p-1  "></i>
+                        <i class="fa-brands fa-google p-1 "></i>
+                        <i class="fa-brands fa-pinterest p-1"></i>
+
+                    </div>
+
                 </div>
                 <p class="text-white"> Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
             </div>
